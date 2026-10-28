@@ -1,7 +1,7 @@
 void main() {
-  int count = 10;
-  while (count >= 1) {
-    print(count);
-    count--;
+  List<int> marks = [56, 78, 98];
+
+  for (int mark in marks) {
+    print(mark);
   }
 }
