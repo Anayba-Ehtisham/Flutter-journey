@@ -1,7 +1,9 @@
 int square(int n) {
-  return n * n;
+  return (n * n);
 }
 
 void main() {
-  print(square(7));
+  for (int i = 1; i <= 5; i++) {
+    print(square(i));
+  }
 }
