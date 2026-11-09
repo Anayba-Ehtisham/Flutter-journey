@@ -1,9 +1,9 @@
-int square(int n) {
-  return (n * n);
+bool isEven(int n) {
+  return n % 2 == 0;
 }
 
 void main() {
-  for (int i = 1; i <= 5; i++) {
-    print(square(i));
+  for (int i = 1; i <= 10; i++) {
+    if (isEven(i)) print(i);
   }
 }
